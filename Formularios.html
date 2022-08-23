@@ -2,24 +2,29 @@
 <html>
     <head>
         <title>Formularios</title>
+        <meta charset="UTF-8">
     </head>
 
     <body>
         <h1>Formulario</h1>
-        <form>
+        <form action="registrar-formulario.html"
+        method="post">
             <label>Nombre:</label>
             <input type="text"
                 maxlength="5"
-                size="5">
+                size="5"
+                name="nombre">
             <label>Password:</label>
             <input type="password"
                 maxlength="4"
-                size="4">
+                size="4"
+                name="password">
             <input type="submit" value="Enviar">
         </form>    
 
         <h1>Formulario 2</h1>
-        <form>         
+        <form action="registrar-formulario.html"
+              method="post">         
             <input type="checkbox" value="MUSICA">
             <label>Opcion1:</label>
             <br>
@@ -34,7 +39,45 @@
             <input type="radio" 
                    value="B"
                    name="opciones">
+            <input type="submit" value="Enviar">       
         </form>
+
+        <from>
+            <table>
+                <tr>
+                    <td>
+                        Nombre:
+                    </td>
+                    <td>
+                        <input name="nombre"
+                               type="text">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Fec.Nac:
+                    </td>
+                    <td>
+                        <input name="nombre"
+                               type="date">
+                    </td>
+                    <tr>
+                        <td>
+                            Edad:
+                        </td>
+                        <td>
+                            <input name="nombre"
+                                   type="number" 
+                                   min="1" max="150" 
+                                   step="2">
+                        </td>
+                    </tr>
+                </tr>
+
+            </table>
+
+        </from>
+
         <hr>
         <a href="index.html">
             Volver al index
