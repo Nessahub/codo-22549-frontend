@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!--formas de usar css-->
+    <style>
+        /*todo lo que escriba aca va a ser CSS*/
+       h1 {
+            color:yellow
+       }
+       /* hasta aca */
+
+       /* estructura
+       selector {
+         propiedad: valor
+       }
+       */
+       .otraClaseDeColorVerde{
+        background-color:green
+       }
+
+       section {
+            background-color: yellow;
+       }
+       /* por ID */
+       .btn{
+        background-color: aqua;
+       }
+
+    </style>    
+
+    <!-- 3 forma: EXTERNO-->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main>
+      <!--2da forma INLINE
+      aplicar estilos en linea
+      usando el atributo style-->
+    <section class="sectionPrincipal">     
+      <h1 style="color:green"> CSS</h1>
+      <h1>Hola</h1>
+      <h2>Soy un subtitulo h2</h2>
+    
+      <p style="font-weight: bolder">
+        <b>Lorem ipsum dolor sit amet consectetur adipisicing elit.</b>
+            
+      </p>
+    </section>   
+    <section class="otraClaseDeColorVerde">
+        <h1>Hola</h1>    
+    </section>
+
+    <section>
+        <form action="alta.html">
+            <label for="nombre">Nombre:</label>
+            <input name="nombre"
+                   type="text"
+                   maxlength="50"
+                   requied>
+                   
+            <button id="btn">
+                Enviar
+            </button>     
+            
+            <button class="btn">
+                Enviar2
+            </button>
+            <button class="btn">
+                Enviar3
+            </button>
+        </form>
+        
+
+    </section>
+
+</main>
+</body>
+</html>
