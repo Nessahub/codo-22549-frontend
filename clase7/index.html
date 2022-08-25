@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        /* atributo*/
+        /* igual*/
+        [id="idJS"] {
+            color: blue;
+            text-transform: uppercase;  /* lowercase / uppercase */
+        }
+
+        /*que contenga*/
+        [id*="ss"]{
+            color: green;
+        }
+        /*inicia con*/
+        [id^="html"]{
+            font-style: italic;
+        }
+        /* termine con*/
+        [id$="Java"]{
+            text-transform: lowercase;
+        }
+        [art="atrValor"]{
+            font-size: 35px;
+        }
+    </style>
+</head>
+<body>
+
+    <section class="html" 
+             style="background-color:yellowgreen"
+             id="htmlId">
+        <h2>HTML</h2>
+         <p>texto del primer div </p>    
+    </section>
+
+    <section class="css" 
+             id="cssID">
+             <h1>CSS</h1>
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis natus aliquid inventore officiis eos itaque rerum vero quibusdam maxime harum explicabo libero dolore magni non quae, omnis, velit quo magnam.</p>
+    </section>
+    <section id="idJS">
+              <h4>JS</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis natus aliquid inventore officiis eos itaque rerum vero quibusdam maxime harum explicabo libero dolore magni non quae, omnis, velit quo magnam.</p>
+    </section>
+    <section id="idJava">
+              <h5>JAVA</h5>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis natus aliquid inventore officiis eos itaque rerum vero quibusdam maxime harum explicabo libero dolore magni non quae, omnis, velit quo magnam.</p>
+   </section>
+
+</body>
+</html>
