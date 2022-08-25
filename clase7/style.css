@@ -1,0 +1,39 @@
+p {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    /*font-family: 'Family', cursive;*/
+}
+/* quiero que todos tengan la misma fuenta */
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* herencia */
+section {
+    background-color: aqua;
+}
+.html {
+    background-color: aquamarine !important;
+
+}
+main section.html {
+    background-color: brown;
+}
+#htmlId {
+    background-color: blueviolet;
+    width: 300px;
+    height: 125px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+
+}
+
+/* especificidad */
+/*
+1. !important
+2. inline (en el caso que hubiera un ID definido iria entre 3 y 4)
+3. class
+4. etiqueta
+*/
