@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*selector hija*/
+        p > strong {
+            color: red;
+        }
+        div  img{
+            size: 300px;
+        }
+        div.div1 p {
+            font-size: 15px;
+        }
+        /* hermanos generales */
+        div.h2 {
+            color: aqua;
+        }
+
+        /*pseudoclase*/
+
+        input:checked {
+            margin: 10px;
+        }
+        div.primerhijo {
+            text-align: center;
+        }
+        div.primerhijo p{
+            display: inline;
+        }
+        /* first child */
+        div.primerhijo p:first-child{
+            color: blueviolet;
+            font-size: 20px;
+            font-weight: bolder;
+        }
+        /* last child */
+        div.primerhijo p:last-child {
+            color: rgb(41, 111, 996);
+            font-size: 20px;
+            font-weight: bolder;
+        }
+        /* nth*/
+        ol li:nth-child(odd) {
+            color: rgb(236, 144, 78);
+        }
+    </style>
+</head>
+<body>
+    <p>
+        selector de hijos PADRE > HIJO
+    </p>
+
+    <p>
+        texto <strong> texto strong</strong> sigue el texto
+    </p>
+    <div  class="div1">         
+        <img src="./scale123.jfif">
+        <p>Párrafo</p>
+        <p>Párrafo</p>
+    </div>
+
+    <!-- Hermanos Adyacentes -->
+    <div>
+        <h1>Hermanos adyacentes</h1>
+        <p>
+            texto 1
+        </p>
+        <p>
+            texto 2
+        </p>
+        <p>
+            texto 3
+        </p>
+
+    </div>
+      <!-- Hermanos Generales -->
+      <div>
+        <h2>Hermanos generales</h2>
+        <p>
+            hermano 1 de h2
+        </p>
+        <p>
+            hermano 2 de h2
+        </p>
+    </div>
+      <!--Selector de atributo en clase ( index.html )-->
+    <ul>
+        <li>
+            <a href="http://www.google.com.ar">Google</a>
+        </li>
+        <li>
+            <a href="http://www.facebook.com">Facebook</a>
+        </li>
+       
+    </ul>
+    <input type="checkbox">
+
+    <div class="primerhijo">
+        <p>
+            p1
+        </p>
+        <p>
+            p2
+        </p>
+        <p>
+            p3
+        </p>
+        <p>
+            p4
+        </p>
+    </div>
+    <ol>
+        <li>primero</li>
+        <li>segundo</li>
+        <li>tercero</li>
+        <li>primero</li>
+        <li>segundo</li>
+        <li>tercero</li>
+    </ol>
+</body>
+</html>
