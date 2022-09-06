@@ -20,11 +20,33 @@
         h1 + p{
             font-weight: bolder;
         }
+        /* hermano general: */
+        h2 ~ p {
+            height: 30px;
+            background-color: aqua;
+        }
         /* hermanos generales */
         div.h2 {
             color: aqua;
         }
-
+        /* pseudoclases*/
+        a:visited {
+            color: green;
+        }
+        a:active {
+            color: turquoise;
+        }
+        h1:hover {
+            font-family: Verdana;
+        }
+        img:hover {
+            width: 310px;
+            border: 5px solid yellow;
+        }
+        /* hermanos + ady o hermanos grales */
+        h1 ~ p:hover {
+            font-size: 20px;
+        }
         /*pseudoclase*/
 
         input:checked {
