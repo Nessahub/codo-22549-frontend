@@ -60,7 +60,7 @@ section img {
 }
 /*scrolling*/
 html {
-    scroll-behavior: smooth;
+    scroll-behavior:smooth;
 }
 /* aplico los colores: gradient */
 section:first-child {
@@ -93,5 +93,4 @@ section a:active {
     section {
         flex-direction: column;
     }
-    
 }
