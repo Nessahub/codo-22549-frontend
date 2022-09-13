@@ -1,12 +1,23 @@
 html {
     min-height: 100%;
 }
-#main {
-    background-color:rgb(53, 58, 64)
+
+.menu-container {
+    background-color: dimgray;
+    display: flex;
+}
+#menuNav {
+    display: inline-block;
+}
+ul{
+    text-align: right;
 }
 button{
-    background-color: rgb(41, 167, 68)
+    background-color: rgb(41, 167, 68);
 }
 input {
     background-color: rgb(150, 201, 62);
+}
+footer {
+    background-color: rgb(29, 67, 88);
 }
