@@ -1,0 +1,12 @@
+html {
+    min-height: 100%;
+}
+#main {
+    background-color:rgb(53, 58, 64)
+}
+button{
+    background-color: rgb(41, 167, 68)
+}
+input {
+    background-color: rgb(150, 201, 62);
+}
