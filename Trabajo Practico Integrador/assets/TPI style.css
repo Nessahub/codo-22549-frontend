@@ -1,0 +1,22 @@
+html {
+    min-height: 100%;
+}
+.img-fluid {
+    max-width: 9%;
+    height: auto;
+}
+.container-fluid {
+    background-color: dimgray;
+    display: flex;
+}
+
+.nav-item{
+   display: flex;
+}
+
+input {
+    background-color: rgb(150, 201, 62);
+}
+footer {
+    background-color: rgb(29, 67, 88);
+}
