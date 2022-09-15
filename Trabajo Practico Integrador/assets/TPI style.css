@@ -2,20 +2,16 @@ html {
     min-height: 100%;
 }
 .img-fluid {
-    max-width: 70%;
+    max-width: 9%;
     height: auto;
 }
-.menu-container {
+.container-fluid {
     background-color: dimgray;
     display: flex;
 }
-#menuNav {
-    display: inline-block;
-    text-decoration: none;
-}
 
 .nav-item{
-    : right;
+   display: flex;
 }
 button{
     background-color: rgb(41, 167, 68);
