@@ -1,5 +1,6 @@
 body {
     min-height: 100%;
+    background-color: d;
 }
 header {
     display:flex-end;
@@ -9,6 +10,22 @@ header {
     background-color: rgb(53, 58, 64);
     text-align: right;
     width:auto;
+    padding-left: 80px;
+    padding-right: 80px;
+    color:white; 
+}
+.navbar span {
+    color:white;
+    font-style: normal;
+    margin-bottom: 25px;
+}
+header .navbar p {
+    color: white;
+   
+}
+.row {
+    text-align: center;
+    margin-top: 15px;
 }
 .navbar-brand {
     text-align: justify;
@@ -18,23 +35,53 @@ header {
     text-align: end;
     
 }
+.idMenu {
+    font-size: 24px;
+    color:darkgrey;
+}
 .idMenu .nav-item .nav-link-active {
     text-decoration: none;
     color: white;
 }
-.row>ul .idMenu {
-    display: inline-block;
+.row {
+    margin: 0;
+}
+.card {
+    padding: 0;
+    border: 0;
 }
 .nav-item {
-    color:darkgray;
+    
+    justify-content: center;
+    box-sizing: content-box;
+    padding-right: 20px;
+    margin-right: 20px;
+
+}
+.idTextImg {
+    display: flex;
+    justify-content: end;
+    background-image: url(./img/ba1.jpg);
+    max-width: 100%;
+    height: auto;
+    filter:brightness(50%);
+    color: white;
+    padding: 0;
+    margin: 0;
+    
+
 }
 .nav-item .idGreen {
     color: rgb(41, 167, 68);
     text-decoration: none;
 }
-.img-fluid {
-    max-width: 9%;
-    height: auto;
+.idFondo {
+    
+    
+}
+.card-body{
+    
+    
 }
 ul {
     display: flex;
