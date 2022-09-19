@@ -46,28 +46,40 @@ header .navbar p {
 .row {
     margin: 0;
 }
-.card {
-    padding: 0;
-    border: 0;
-}
 .nav-item {
     
     justify-content: center;
     box-sizing: content-box;
     padding-right: 20px;
-    margin-right: 20px;
-
+    margin-right: 18px;
+    padding-top: 15px;
 }
-.idTextImg {
-    display: flex;
+.card {
+    padding: 0;
+    border: 0;
+    text-align: end;
+    font-size: 18px;
+    justify-content:end;
+    
+    
+}
+.card-title {
     justify-content: end;
+    text-align: center;
+}
+.card .img .card-img {
+    filter:brightness(50%); 
+    border-top-left-radius:0;
+}
+
+.card-img-overlay {
+    display: flex;
     background-image: url(./img/ba1.jpg);
     max-width: 100%;
-    height: auto;
-    filter:brightness(50%);
-    color: white;
+    height: auto; 
     padding: 0;
     margin: 0;
+    color:white;
     
 
 }
@@ -75,14 +87,7 @@ header .navbar p {
     color: rgb(41, 167, 68);
     text-decoration: none;
 }
-.idFondo {
-    
-    
-}
-.card-body{
-    
-    
-}
+
 ul {
     display: flex;
     text-align:inherit;
