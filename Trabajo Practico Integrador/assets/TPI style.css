@@ -1,6 +1,6 @@
 body {
     min-height: 100%;
-    background-color: d;
+    
 }
 header {
     display:flex-end;
@@ -10,8 +10,8 @@ header {
     background-color: rgb(53, 58, 64);
     text-align: right;
     width:auto;
-    padding-left: 80px;
-    padding-right: 80px;
+    padding-left: 30px;
+    padding-right: 70px;
     color:white; 
 }
 .navbar span {
@@ -36,8 +36,16 @@ header .navbar p {
     
 }
 .idMenu {
+
     font-size: 24px;
     color:darkgrey;
+    margin: 0;
+    padding: 0; 
+}
+ul {
+    display: flex;
+    text-align:inherit;
+    align-items: flex-end;
 }
 .idMenu .nav-item .nav-link-active {
     text-decoration: none;
@@ -54,6 +62,10 @@ header .navbar p {
     margin-right: 18px;
     padding-top: 15px;
 }
+.row .idMiddle {
+    margin-top: 5px;
+    font-style: normal;
+}
 .card {
     padding: 0;
     border: 0;
@@ -64,10 +76,10 @@ header .navbar p {
     
 }
 .card-title {
-    justify-content: end;
-    text-align: center;
+    display:inline-block;
+    text-align:end;
 }
-.card .img .card-img {
+div .img .card-img {
     filter:brightness(50%); 
     border-top-left-radius:0;
 }
@@ -88,11 +100,7 @@ header .navbar p {
     text-decoration: none;
 }
 
-ul {
-    display: flex;
-    text-align:inherit;
-    align-items: flex-end;
-}
+
 .container-fluid {
     background-color: rgb(53, 58, 64);
     display: flex;
