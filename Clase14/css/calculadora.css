@@ -1,0 +1,8 @@
+.calculadora-container {
+    display: flex;
+}
+.calculadora-container div.calculadora-container__numeros > div {
+    width: 50px;
+    height: 50px;
+    
+}
