@@ -1,0 +1,27 @@
+.card-group {
+    margin: 3px;
+}
+.card {
+    display:flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    position:relative; 
+}
+.card-body {
+    justify-content:right;  
+}
+.img-fluid {
+    display: flex;
+    width: 631px;
+    height: 355px; 
+}
+button#btnEnviar {
+    margin-left: 5px;
+}
+form {
+    margin: 5px;
+}
+.container-fluid {
+    display: flex;
+}
