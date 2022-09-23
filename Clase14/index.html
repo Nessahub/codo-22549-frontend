@@ -4,55 +4,48 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/calculadora.css">
     <title>Clase14</title>
     
 </head>
 <body>
     <main>
         <section>
-            <h1>Calculadora</h1>
-            <!--Operando 1-->
-            <label for="op1"></label>
-            <input id="op1" type="number">
-            <!-- operacion matematica-->
-            <label for="operacion"></label>
-            <input id="operacion" type="text" size="5">
-            <!-- operador 2-->
-            <label for="op2"></label>
-            <input id="op2" type="number">
-            <!-- resultado -->
-            <label></label>
-            <label id="resultado"></label>
-            <br>
-            <!--realiza calculo-->
-            <button onclick="calcular();">
-                Calcular
-            </button>
-            <!--limpiar-->
-            <button onclick="borrar();">
-                Borrar
-            </button>
-        </section>
-        <section>
             <div class="calculadora-container">
-                <div class="calculadora-container__numeros">
+                <div class="row col-xs-12 col-sm-10 col-md-8 col-lg-6 col-xl-5">
+                  <div class="calculadora-container__numeros" >
                   
-                <div onclick="guardar(0)">0</div>
-                <div>1</div>
-                <div>2</div>
-                <div>3</div>
-                <div>4</div>
-                <div>5</div>
-                <div>6</div>
-                <div>7</div>
-                <div>8</div>
-                <div>9</div>
+                  
+                    <div onclick="guardar(0)"
+                    type="button" class="btn btn-light">0</div>
+                    <div onclick="guardar(1)"
+                    type="button" class="btn btn-light">1</div>
+                    <div onclick="guardar(2)"
+                    type="button" class="btn btn-light">2</div>
+                    <div onclick="guardar(3)"
+                    type="button" class="btn btn-light">3</div>
+                    <div onclick="guardar(4)"
+                    type="button" class="btn btn-light">4</div>
+                    <div onclick="guardar(5)"
+                    type="button" class="btn btn-light">5</div>
+                    <div onclick="guardar(6)"
+                    type="button" class="btn btn-light">6</div>
+                    <div onclick="guardar(7)"
+                    type="button" class="btn btn-light">7</div>
+                    <div onclick="guardar(8)"
+                    type="button" class="btn btn-light">8</div>
+                    <div onclick="guardar(9)"
+                    type="button" class="btn btn-light">9</div>
+                  </div>
                 </div>
                 <div class="calculadora-container__operaciones">
-                <div>/</div>
-                <div>*</div>
-                <div>-</div>
-                <div>+</div>
+                <div type="button" class="btn btn-outline-secondary">/</div>
+                <div type="button" class="btn btn-outline-secondary">*</div>
+                <div type="button" class="btn btn-outline-secondary">-</div>
+                <div type="button" class="btn btn-outline-secondary">+</div>
+                <div type="button" class="btn btn-outline-dark">=</div>
                 </div>
             </div>
         </section>
@@ -61,3 +54,28 @@
 </body>
 <script src="./JS/ejercicios.js"></script>
 </html>
+
+<section>
+    <h1>Calculadora</h1>
+    <!--Operando 1-->
+    <label for="op1"></label>
+    <input id="op1" type="number">
+    <!-- operacion matematica-->
+    <label for="operacion"></label>
+    <input id="operacion" type="text" size="5">
+    <!-- operador 2-->
+    <label for="op2"></label>
+    <input id="op2" type="number">
+    <!-- resultado -->
+    <label></label>
+    <label id="resultado"></label>
+    <br>
+    <!--realiza calculo-->
+    <button onclick="calcular();">
+        Calcular
+    </button>
+    <!--limpiar-->
+    <button onclick="borrar();">
+        Borrar
+    </button>
+</section>
