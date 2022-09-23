@@ -34,3 +34,13 @@ div#cero {
     margin-right: 200px;
 
 }
+#borrar {
+    justify-content:end;
+    align-items: center;
+}
+.btn-group-vertical {
+    display:flex ;
+    justify-content: left;
+    align-items:flex-start;
+    
+}
