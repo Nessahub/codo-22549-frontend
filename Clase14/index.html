@@ -14,38 +14,52 @@
     <main>
         <section>
             <div class="calculadora-container">
-                <div class="row col-xs-12 col-sm-10 col-md-8 col-lg-6 col-xl-5">
-                  <div class="calculadora-container__numeros" >
-                  
-                  
-                    <div onclick="guardar(0)"
-                    type="button" class="btn btn-light">0</div>
-                    <div onclick="guardar(1)"
-                    type="button" class="btn btn-light">1</div>
-                    <div onclick="guardar(2)"
-                    type="button" class="btn btn-light">2</div>
-                    <div onclick="guardar(3)"
-                    type="button" class="btn btn-light">3</div>
-                    <div onclick="guardar(4)"
-                    type="button" class="btn btn-light">4</div>
-                    <div onclick="guardar(5)"
-                    type="button" class="btn btn-light">5</div>
-                    <div onclick="guardar(6)"
-                    type="button" class="btn btn-light">6</div>
-                    <div onclick="guardar(7)"
-                    type="button" class="btn btn-light">7</div>
-                    <div onclick="guardar(8)"
-                    type="button" class="btn btn-light">8</div>
+                <div class="col-xs-12 col-sm-10 col-md-8 col-lg-6 col-xl-5" >                   
+                    <div class="container-fluid" class="calculadora-container__numeros">
+                        <label id="resto"></label>
+                        <br>
+                    <br>
+                <div id="nos" class="btn-group" > 
                     <div onclick="guardar(9)"
                     type="button" class="btn btn-light">9</div>
+                    <div onclick="guardar(8)"
+                    type="button" class="btn btn-light">8</div>
+                    <div onclick="guardar(7)"
+                    type="button" class="btn btn-light">7</div>
+                 </div>
+                 <br>
+                <div id="scc" class="btn-group" > 
+                    <div onclick="guardar(6)"
+                    type="button" class="btn btn-light">6</div>
+                    <div onclick="guardar(5)"
+                    type="button" class="btn btn-light">5</div>
+                    <div onclick="guardar(4)"
+                    type="button" class="btn btn-light">4</div>
+                </div>
+                <br>
+
+                <div id="tdu" class="btn-group" > 
+                    <div onclick="guardar(3)"
+                    type="button" class="btn btn-light">3</div>
+                    <div onclick="guardar(2)"
+                    type="button" class="btn btn-light">2</div>
+                    <div onclick="guardar(1)"
+                    type="button" class="btn btn-light">1</div>
+                </div>
+                <br>
+
+                    <div id="cero" onclick="guardar(0)"
+                    type="button" class="btn btn-light">0</div>
                   </div>
                 </div>
                 <div class="calculadora-container__operaciones">
-                <div type="button" class="btn btn-outline-secondary">/</div>
-                <div type="button" class="btn btn-outline-secondary">*</div>
-                <div type="button" class="btn btn-outline-secondary">-</div>
-                <div type="button" class="btn btn-outline-secondary">+</div>
-                <div type="button" class="btn btn-outline-dark">=</div>
+                  <div class="btn-group-vertical">     
+                    <div type="button" class="btn btn-outline-secondary">/</div>
+                    <div type="button" class="btn btn-outline-secondary">*</div>
+                    <div type="button" class="btn btn-outline-secondary">-</div>
+                    <div type="button" class="btn btn-outline-secondary">+</div>
+                    <div type="button" class="btn btn-outline-dark">=</div>
+                 </div>   
                 </div>
             </div>
         </section>
@@ -68,7 +82,7 @@
     <input id="op2" type="number">
     <!-- resultado -->
     <label></label>
-    <label id="resultado"></label>
+    
     <br>
     <!--realiza calculo-->
     <button onclick="calcular();">

@@ -60,7 +60,7 @@ function calcular() {// inicio
 function borrar() {
     //op1
     document.getElementById('op1').value='';
-    document.getElementById('op').value='';
+    document.getElementById('op2').value='';
     document.getElementById('operacion').value='';
     document.getElementById('resultado').innerHTML='';
 }
