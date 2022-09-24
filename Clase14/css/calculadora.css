@@ -1,9 +1,10 @@
 .calculadora-container {
     display: flex;
-    justify-content:center;
+    align-items: baseline;
     background-color: antiquewhite;
-    margin-right: 5rem;
-    margin-left: 5rem;
+    margin-right: 6rem;
+    margin-left: 6rem;
+
 }
     
 .calculadora-container div.calculadora-container__numeros > div {
@@ -41,6 +42,6 @@ div#cero {
 .btn-group-vertical {
     display:flex ;
     justify-content: left;
-    align-items:flex-start;
+    align-items:stretch;
     
 }
