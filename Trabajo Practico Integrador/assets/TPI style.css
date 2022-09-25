@@ -20,20 +20,17 @@ header {
     margin-bottom: 25px;
 }
 header .navbar p {
-    color: white;
-   
+    color: white; 
 }
 .row {
     text-align: center;
     margin-top: 15px;
 }
 .navbar-brand {
-    text-align: justify;
-    
+    text-align: justify;  
 }
 .nav {
-    text-align: end;
-    
+    text-align: end;   
 }
 .idMenu {
 
@@ -79,7 +76,7 @@ ul {
     display:inline-block;
     text-align:end;
 }
-div .img .card-img {
+div .img-fluid {
     filter:brightness(50%); 
     border-top-left-radius:0;
 }
@@ -92,7 +89,14 @@ div .img .card-img {
     padding: 0;
     margin: 0;
     color:white;
-    
+}
+.card-group {
+    display: flex;
+    max-width: 80rem;
+    margin-inline-start: 20rem;
+    justify-content: space-between;
+    border: 1px;
+    border-color: gray;
 
 }
 .nav-item .idGreen {
