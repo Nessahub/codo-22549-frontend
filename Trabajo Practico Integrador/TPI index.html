@@ -27,25 +27,25 @@
                 <ul class="idMenu">
                     <li class="nav-item">
                         <a class="nav-link-active" 
-                        aria-current="page" href="#">
+                        aria-current="page" href="#conf">
                             La conferencia
                     </a>
                     </li>
                     <li class="nav-item"  >
-                        <a class="nav-link disabled" 
-                           href="#" tabindex="-1" aria-disabled="true">
+                        <a class="nav-link " 
+                           href="#oradores" tabindex="-1" aria-disabled="true">
                             Los oradores
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link disabled" 
-                           href="#" tabindex="-1" aria-disabled="true">
+                        <a class="nav-link " 
+                           href="#lugarFecha" tabindex="-1" aria-disabled="true">
                             El lugar y la fecha
                             </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link disabled" 
-                           href="#" tabindex="-1" aria-disabled="true">
+                        <a class="nav-link" 
+                           href="#convOrador" tabindex="-1" aria-disabled="true">
                             Conviértete en orador
                         </a>
                     </li>
@@ -57,10 +57,11 @@
                 </ul>
             </div>
     </header>
-    <Section>
+    <Section id="conf">
         <div class="row">            
             <div class="card bg-dark text-white" class="container-fluid">
                 <img src="./assets/img/ba1.jpg" class="img-fluid" class="card-img">
+
                     <div class="card-img-overlay d-flex flex-column align-item-end justify-content-center"  class="align-text-right" >
                       <h1 class="card-title" class="d-flex col-5">Conf Bs As</h1>
                       <p class="card-text text-end" >Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el conocimiento y experiencia de los expertos
@@ -70,11 +71,12 @@
                         <button type="button" class="btn btn-outline-light">Quiero ser orador</button>
                         <button type="button" class="btn" id="comprarTicket" >Comprar tickets</button>
                       </div>
-                </div> 
+                </div>    
             </div>               
         </div>       
     </Section>
  </nav>
+ <Section id="oradores">
         <div class="row" style="font-style: normal">
            <h5>CONOCE A LOS</h5> <br>
                 <h1>ORADORES</h1>
@@ -120,6 +122,7 @@
       </div>
     </section>
   </div>
+ <Section id="lugarFecha">
   <!--bloque con dos columnas, imagen y texto-->
           <div class="card mb-3" style="max-width: 2000px;">
           <div class="row g-1">
@@ -142,6 +145,8 @@
             </div>
           </div>  
        </div>
+  </Section>   
+     
        <div class="row" style="font-style: normal">
         <span>
            <h5>CONVIÉRTETE EN UN</h5>
@@ -152,7 +157,8 @@
           </div>
     </div>
         <!--formulario de datos-->
-    <section class="form d-flex flex-column">   
+<Section id="convOrador">       
+    <Section class="form d-flex flex-column">   
         <div class="row col-6">
             <div class="col mb-3">
               <input type="text" class="form-control" placeholder="Nombre" aria-label="First name">
@@ -166,25 +172,35 @@
                       placeholder="Sobre qué quieres hablar?" max-lenght="120" rows="3"></textarea>
             <figcaption class="figure-caption mb-2 mt-1">Recuerda incluir un título para tu charla.</figcaption>
           </div>
-          <div class="d-grid gap-3">
-            <input id="enviarButton" type="submit" value="Enviar"> 
+          <div class="d-grid col-6 gap-3 ">
+            <input class="btn" id="enviarButton" type="submit" value="Enviar"> 
         </div>
-
-    </section>      
+    </Section>
+    <br>
+  </section>      
     <!--footer con menu-->
     <div class="footerMenu" class="footer-container">
     <ul class="nav justify-content-center">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Active</a>
+          <a class="nav-link " aria-current="page" >Preguntas <p>Frecuentes</p></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
+          <a class="nav-link " tabindex="-1" aria-disabled="true">Contactános</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
+          <a class="nav-link " tabindex="-1" aria-disabled="true">Prensa</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          <a class="nav-link " tabindex="-1" aria-disabled="true">Conferencias</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " tabindex="-1" aria-disabled="true">Términos y <p>condiciones</p></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " tabindex="-1" aria-disabled="true">Privacidad</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " tabindex="-1" aria-disabled="true">Estudiantes</a>
         </li>
       </ul>
     </div>
