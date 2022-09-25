@@ -50,6 +50,7 @@ ul {
 }
 .row {
     margin: 0;
+    text-align: start;
 }
 .nav-item {
     
@@ -69,29 +70,39 @@ ul {
     text-align: start;
     font-size: 18px;
     
-    position: relative;
-    justify-content:space-between;
+    position: relative; 
     
 }
+
 .card-title {
     display:inline-block;
     text-align:end;
 }
 
 .card-img-overlay {
-    display: flex;
+    
     background-image: url(./img/ba1.jpg);
     max-width: 100%;
     height: auto; 
-    padding: 0;
+    padding: 8rem;
     margin: 0;
     color:white;
+    
 }
+.btn#comprarTicket {
+    background-color: rgb(41, 167, 68);
+    color:white;
+}
+
 .card-group {
-    display:inline-flex;
+    display:inline-flex; 
     max-width: 80rem;
     
     
+}
+#honolulu {
+    display: flex;
+    background-color: rgb(53, 58, 64);
 }
 
 .nav-item .idGreen {
@@ -112,7 +123,7 @@ ul {
 button{
     background-color: rgb(23, 162, 185);
 }
-input {
+input .value{
     background-color: rgb(150, 201, 62);
 }
 footer {
