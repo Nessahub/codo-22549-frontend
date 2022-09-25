@@ -63,13 +63,13 @@
                 <img src="./assets/img/ba1.jpg" class="img-fluid" class="card-img">
                     <div class="card-img-overlay d-flex flex-column align-item-end justify-content-center"  class="align-text-right" >
                       <h1 class="card-title">Conf Bs As</h1>
-                      <p class="card-text text-end ConfText" >Bs As llega por primera vez a Argentina. Un evento para compartir
+                      <p class="card-text text-end" >Bs As llega por primera vez a Argentina. Un evento para compartir
                         con nuestra comunidad el conocimiento y experiencia de los expertos
                         que están creando el futuro de Internet. Ven a conocer a miembros del
                         evento, a otros estudiantes de Codo a Codo y los oradores de primer
                         nivel que tenemos para ti. Te esperamos!</p>
-                      <div class="col-12 justify-content-end">
-                        <button type="button" class="btn btn-outline-secondary">Quiero ser orador</button>
+                      <div class="d-flex col-12 justify-content-end">
+                        <button type="button" class="btn btn-outline-light">Quiero ser orador</button>
                         <button type="button" class="btn btn-success">Comprar tickets</button>
                       </div>
                 </div> 
@@ -82,49 +82,86 @@
                 <h1>ORADORES</h1>
         </div>   
     <!--bloque con cards texto, imagen-->
-    <div class="card-group justify-content-center">
+    <div class="card-group"  >
         <div class="card">
-          <img src="./assets/img/steve.jpg" class="card-img-top" >
+          <img src="./assets/img/steve.jpg" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title align-text-left">Steve Jobs</h5>
+            <div id="botonesSJ">
+                <span class="badge bg-warning text-dark">JavaScript</span>
+                <span class="badge bg-info">React</span>
+            </div>
+            <h5 class="card-title">Steve Jobs</h5>
             <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Recusandae libero perferendis vero quaerat modi cum fuga odio doloremque eos soluta?</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                Obcaecati laboriosam nesciunt deleniti pariatur repellat nisi doloribus, adipisci expedita veritatis mollitia.</p>
           </div>
         </div>
         <div class="card">
           <img src="./assets/img/bill.jpg" class="card-img-top" alt="...">
           <div class="card-body">
+            <div id="botonesBG">
+                <span class="badge bg-warning text-dark">JavaScript</span>
+                <span class="badge bg-info">React</span>
+            </div>
             <h5 class="card-title">Bill Gates</h5>
             <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Eos cupiditate praesentium nisi dolores quidem fuga sit incidunt molestias odit voluptate!</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                Optio facilis soluta architecto perferendis accusantium quod perspiciatis veniam ipsam modi repellat.</p>
           </div>
         </div>
         <div class="card">
           <img src="./assets/img/ada.jpeg" class="card-img-top" alt="...">
           <div class="card-body">
+            <div id="botonesAda">
+                <span class="badge bg-secondary">Negocios</span>
+                <span class="badge bg-danger">Starups</span>                
+            </div>
             <h5 class="card-title">Ada Lovelace</h5>
-            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                Sed nam ut culpa quis odio distinctio iste ullam praesentium quo sint.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                Vitae libero, velit cumque nihil corporis culpa consectetur atque quo facere praesentium.</p>            
           </div>
         </div>
       </div>
-                    <span class="badge bg-danger">Danger</span>
-                    <span class="badge bg-warning text-dark">Warning</span>
-                    <span class="badge bg-secondary">Secondary</span>
-             
-
+      
             <!--bloque con dos columnas, imagen y texto-->
 
 
         </section>
     </div>
         <!--formulario de datos-->
-
+    <section>   
+        <div class="row">
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Nombre" aria-label="First name">
+            </div>
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name">
+            </div>
+          </div>
+          <div class="mb-3">           
+            <textarea class="form-control" id="exampleFormControlTextarea1" 
+                      placeholder="Sobre qué quieres hablar?" rows="3"></textarea>
+            <figcaption class="figure-caption">Recuerda incluir un título para tu charla.</figcaption>
+            <div class="enviarButton">
+                <input type="submit" value="Enviar"> 
+            </div>
+          </div>
+    </section>      
     <!--footer con menu-->
-
+    <div class="footerMenu" class="footer-container">
+    <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Active</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+    </div>
 </body>
 
 </html>

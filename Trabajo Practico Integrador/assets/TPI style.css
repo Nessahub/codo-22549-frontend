@@ -66,19 +66,16 @@ ul {
 .card {
     padding: 0;
     border: 0;
-    text-align: end;
+    text-align: start;
     font-size: 18px;
-    justify-content:end;
     
+    position: relative;
+    justify-content:space-between;
     
 }
 .card-title {
     display:inline-block;
     text-align:end;
-}
-div .img-fluid {
-    filter:brightness(50%); 
-    border-top-left-radius:0;
 }
 
 .card-img-overlay {
@@ -91,14 +88,12 @@ div .img-fluid {
     color:white;
 }
 .card-group {
-    display: flex;
+    display:inline-flex;
     max-width: 80rem;
-    margin-inline-start: 20rem;
-    justify-content: space-between;
-    border: 1px;
-    border-color: gray;
-
+    
+    
 }
+
 .nav-item .idGreen {
     color: rgb(41, 167, 68);
     text-decoration: none;
