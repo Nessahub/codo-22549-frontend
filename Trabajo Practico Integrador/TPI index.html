@@ -75,7 +75,7 @@
         </div>       
     </Section>
  </nav>
-        <div class="row" class="font-style: normal">
+        <div class="row" style="font-style: normal">
            <h5>CONOCE A LOS</h5> <br>
                 <h1>ORADORES</h1>
         </div>   
@@ -122,41 +122,54 @@
   </div>
   <!--bloque con dos columnas, imagen y texto-->
           <div class="card mb-3" style="max-width: 2000px;">
-          <div class="row g-0">
+          <div class="row g-1">
             <div class="col-md-6">
                <img src="./assets/img/honolulu.jpg" class="img-fluid" class="card-img-left"  alt="...">
              </div>  
            <div class="col-md-6">
-             <div id="honolulu" class="card-body flex-column text-light align-item-start">
+             <div id="honolulu" class="card-body flex-column text-light align-item-start container-fluid">
                 <p class="card-text text-start"><h1>Bs As - Octubre</h1></p>
                 <br>
                 <p>Buenos Aires es la provincia y localidad más grande del esta de Argentina,
                   en los Estados Unidos. Honolulu es la más sureña de entre las principales ciudades
                   estadounidenses. Aunque eñ nombre deHonolulu se refiere al área urbana en la costa 
                   sureste de la isla de Oahu, la ciudad y el contado de Honolulu han formado una ciudad-
-                condado consolidada que cubre toda la ciudad (aproximadamente 600km2 de superficie).</ciudad-></p>
-               </div>
-              </div>
+                 condado consolidada que cubre toda la ciudad (aproximadamente 600km2 de superficie).</ciudad-></p>
+                <span>
+                  <button type="button" class="btn btn-outline-light">Conocé más</button>
+                </span> 
+              </div>         
+            </div>
           </div>  
+       </div>
+       <div class="row" style="font-style: normal">
+        <span>
+           <h5>CONVIÉRTETE EN UN</h5>
+           <p><h1>ORADOR</h1></p> 
+        </span>
+          <div id="textCharla" class="row">
+            <p>Anotáte como orador para dar una <abbr title="attribute">charla ignite</abbr>. Cuéntanos de qué quieres hablar!</p>
           </div>
+    </div>
         <!--formulario de datos-->
-    <section>   
-        <div class="row">
-            <div class="col">
+    <section class="form d-flex flex-column">   
+        <div class="row col-6">
+            <div class="col mb-3">
               <input type="text" class="form-control" placeholder="Nombre" aria-label="First name">
             </div>
             <div class="col">
               <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name">
             </div>
           </div>
-          <div class="mb-3">           
-            <textarea class="form-control" id="exampleFormControlTextarea1" 
-                      placeholder="Sobre qué quieres hablar?" rows="3"></textarea>
-            <figcaption class="figure-caption">Recuerda incluir un título para tu charla.</figcaption>
-            <div class="enviarButton">
-                <input type="submit" value="Enviar"> 
-            </div>
+          <div class="mb-1 col-6">           
+            <textarea class="form-control" id="Textarea1" 
+                      placeholder="Sobre qué quieres hablar?" max-lenght="120" rows="3"></textarea>
+            <figcaption class="figure-caption mb-2 mt-1">Recuerda incluir un título para tu charla.</figcaption>
           </div>
+          <div class="d-grid gap-3">
+            <input id="enviarButton" type="submit" value="Enviar"> 
+        </div>
+
     </section>      
     <!--footer con menu-->
     <div class="footerMenu" class="footer-container">

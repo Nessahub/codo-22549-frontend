@@ -51,6 +51,19 @@ ul {
 .row {
     margin: 0;
     text-align: start;
+    border: 1px;
+    border-color: white;
+}
+.row h5 {
+    font-style: normal;
+    text-align: center;
+}
+.row h1 {
+    text-align: center;
+}
+.row #textCharla {
+    text-align: center;
+    text-size-adjust: auto;
 }
 .nav-item {
     
@@ -123,8 +136,15 @@ ul {
 button{
     background-color: rgb(23, 162, 185);
 }
-input .value{
+div #enviarButton {
     background-color: rgb(150, 201, 62);
+    border: 0;
+    justify-content: center;
+    color: white;
+}
+.form {
+    
+    align-items: center;
 }
 footer {
     background-color: rgb(29, 67, 88);
