@@ -118,6 +118,6 @@ console.log('nombres:', nombres);
 const nombresMap = alumnos.map(alumno => alumno.nombre); // que quiero?
 console.log('nombresMap:', nombresMap);
 
-//reduce
+//reduce va a ir acumulando en la variable los datos
 const sumaReduced = alumnos.reduce((acum, actual) => acum + actual.edad, 0); //que quiero?
 console.log('sumaReduced:', sumaReduced);
