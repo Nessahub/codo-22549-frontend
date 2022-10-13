@@ -31,10 +31,15 @@ function add(){
 }
 
 function renderKeyByDOM(){
+
+    //limpiar div que contiene ul
+    document.getElementById('claves').innerHTML = '';
+
     const list = findKeys();
     //crear <ul>
     const ul = document.createElement('ul');
-    ul.id = 'classUl';
+    ul.innerHTML = '';
+    ul.id = 'clavesUl';
     ul.className = 'classUl';
 
     //agregar al div el hijo: <ul>
@@ -77,3 +82,22 @@ function findKeys() {
     return document.getElementById('claves');
 }
 btnAdd.addEventListener('click', add);
+
+function clearList (){
+    
+    while(claves.length > 0) {
+        claves.pop();
+    }
+}
+function limpiar(){
+    //vaciar la lista
+    clearList();
+    debugger;
+    //capturar ud y limpiar lista
+    document.getElementById('claves').innerHTML = '';
+}
+
+//capturo el boton limpiar
+const boton = document.getElementById('limpiar');
+boton.addEventListener('click', limpiar);
+
