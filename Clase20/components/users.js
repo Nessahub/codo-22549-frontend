@@ -1,6 +1,9 @@
-function Users(userdata) {//array de informacion con el cual voy a construir la tabla
-    const html = 
-    `
+
+function Users(userData) {//array de informacion con el cual voy a construir la tabla
+    
+    console.log(userData);
+
+    const html = `
         <table class="table">
             <thead>
                 <tr>
@@ -12,25 +15,27 @@ function Users(userdata) {//array de informacion con el cual voy a construir la 
                 </tr>
             </thead>
             <tbody>
-            ${userData.map(user => UserDataRow(user)).join('')}
-               
+                ${userData.map(user => UserDataRow(user)).join('')}
             </tbody>
         </table>
     `;
 
     return (
         html
-    );
+    )
 }
 
-function UserDataRow(user){
+function UserDataRow(user) {
     const html = `
-    <tr>
+        <tr>
             <th scope="row">${user.id}</th>
             <td>${user.first_name}</td>
             <td>${user.last_name}</td>
             <td>${user.email}</td>
-            <td><img src="${user.avatar}"></img> </td>
+            <td><img src="${user.avatar}"></td>
         </tr>
-                `
+    `;
+    return (
+        html
+    )
 }

@@ -1,5 +1,5 @@
 //simula ser un componente
-function Navbar(titulo,fn) {
+function Navbar(titulo) {
 
     console.log(titulo);
     //fn();//callback
@@ -46,5 +46,5 @@ function Navbar(titulo,fn) {
 
     return (
         html
-    );
+    )
 }
