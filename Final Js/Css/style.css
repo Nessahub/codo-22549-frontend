@@ -1,0 +1,38 @@
+html {
+    min-height: 100%;
+}
+.img-fluid {
+    max-width: 9%;
+    height: auto;
+}
+.container-fluid {
+    background-color: dimgray;
+    display: flex;
+}
+
+.nav-item{
+   display: flex;
+}
+.form {
+    
+    align-items: center;
+}
+input {
+    background-color: rgb(150, 201, 62);
+}
+.footerMenu {
+    background-color: rgb(29, 67, 88);
+    
+}
+.footerMenu li {
+    padding-top: 0;
+}
+.footerMenu ul {
+    align-items: center;
+}
+.footerMenu .nav-item a {
+    color:white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+} 
