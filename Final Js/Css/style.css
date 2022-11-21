@@ -24,19 +24,19 @@ header {
 input {
     background-color: rgb(150, 201, 62);
 }
-.footerMenu {
+div .footerMenu {
     background:-webkit-linear-gradient(rgb(29, 67, 88));
-    
+    justify-content: space-around;
 }
 .footerMenu li {
     padding-top: 0;
 }
 .footerMenu ul {
-    align-items: center;
+    align-items:center;
 }
 .footerMenu .nav-item a {
     color:white;
     margin-top: 10px;
     margin-bottom: 10px;
     
-} 
+}  
