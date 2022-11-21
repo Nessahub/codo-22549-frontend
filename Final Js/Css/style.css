@@ -1,13 +1,17 @@
 html {
     min-height: 100%;
 }
-.img-fluid {
-    max-width: 9%;
-    height: auto;
+header {
+    display:flex-end;   
 }
-.container-fluid {
-    background-color: dimgray;
-    display: flex;
+
+.navbar {
+    background-color: rgb(53, 58, 64);
+    text-align: right;
+    width:auto;
+    padding-left: 30px;
+    padding-right: 70px;
+    color:white; 
 }
 
 .nav-item{
@@ -21,7 +25,7 @@ input {
     background-color: rgb(150, 201, 62);
 }
 .footerMenu {
-    background-color: rgb(29, 67, 88);
+    background:-webkit-linear-gradient(rgb(29, 67, 88));
     
 }
 .footerMenu li {
