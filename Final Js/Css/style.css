@@ -20,10 +20,8 @@ header {
     
     align-items: center;
 }
-.btn {
-    background-color: rgb(171, 214, 96); 
-}
-div .footer {
+
+section .footerMenu {
     background-color:-webkit-linear-gradient(left, rgb(31, 55, 68), rgb(30, 82, 112)) ;
     justify-content: space-around;
 }
