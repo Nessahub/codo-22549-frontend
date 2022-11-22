@@ -4,7 +4,6 @@ html {
 header {
     display:flex-end;   
 }
-
 .navbar {
     background-color: rgb(53, 58, 64);
     text-align: right;
@@ -21,20 +20,18 @@ header {
     
     align-items: center;
 }
-input {
-    background-color: rgb(150, 201, 62);
+.btn {
+    background-color: rgb(171, 214, 96); 
 }
-div .footerMenu {
-    background:-webkit-linear-gradient(rgb(29, 67, 88));
+div .footer {
+    background-color:-webkit-linear-gradient(left, rgb(31, 55, 68), rgb(30, 82, 112)) ;
     justify-content: space-around;
 }
 .footerMenu li {
     padding-top: 0;
 }
-.footerMenu ul {
-    align-items:center;
-}
-.footerMenu .nav-item a {
+
+.footer li a {
     color:white;
     margin-top: 10px;
     margin-bottom: 10px;
