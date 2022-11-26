@@ -12,16 +12,47 @@ header {
     padding-right: 70px;
     color:white; 
 }
+.navbar span {
+    color:white;
+    font-style: normal;
+    margin-bottom: 25px;
+}
+a .navbar-brand {
+    justify-content:space-around; 
+}
+header .navbar p {
+    color: white; 
+}
+.row {
+    text-align: center;
+    margin-top: 15px;
+}
+.idMenu {
+    justify-content: end;
+    font-size: 24px;
+    color:darkgrey;
+    margin: 0;
+    padding: 0; 
+}
 
 .nav-item{
    display: flex;
+}
+ul {
+    display: flex;
+    text-align:inherit;
+    align-items: flex-end;
+}
+.card-group {
+    display:inline-flex; 
+    
 }
 .form {
     
     align-items: center;
 }
 
-section .footerMenu {
+div.footerMenu {
     background-color:-webkit-linear-gradient(left, rgb(31, 55, 68), rgb(30, 82, 112)) ;
     justify-content: space-around;
 }
