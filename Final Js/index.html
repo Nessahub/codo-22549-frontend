@@ -92,9 +92,9 @@
     </div>
   
    <!-- formulario datos-->
-  
+<div >
   <div class="form d-flex flex-column">
-      <div class="row col-6">
+      <div class="row col-md-9">
         <div class="container flex ">
           <p>VENTA</p>
           
@@ -107,42 +107,47 @@
           <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name">
         </div>
       </div>
-      <div class="mb-3 col-6">
+      <div class="mb-3 col-md-9">
         <label for="exampleFormControlInput1" class="form-label"></label>
         <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Correo">
-      </div>
-    <div>
-      <p>Cantidad</p>
-      <div class="row col-8">
-        <div class="col mb-2 mt-2 ps-0">
-          <div class="form ">
-            <input type="email" class="form-control text-muted" id="floatingInputGrid" placeholder="name@example.com"
-              value="Cantidad">
-          </div>
-        </div>
-        <p>Categoría</p>
-        <div class="col mb-2 mt-2 ps-0">
-          <div class="form">
-            <select class="form-select text-muted" id="floatingSelectGrid" aria-label="Floating label select example">
-              <option value="1">Estudiante</option>
-              <option value="2">Trainee</option>
-              <option value="3">Junior</option>
-            </select>
-          </div>
-        </div>
-      </div>
-    </div>
-      <div class="alert alert-primary" role="alert">
-         Total a pagar: $ 
-      </div>
-    <div class="d-grid gap-2 col-6">
-        <button class="btn " type="button" style="background-color:rgb(171, 214, 96)">Borrar</button>
-        <button class="btn " type="button"style="background-color: rgb(171, 214, 96)">Resumen</button>
-    </div>
+      </div>  
   </div>
+
+  
+  <div class="container ">
+    <label class="form-label justify-content-start mb-0">Cantidad</label>
+    <div class="row g-2 justify-content-center">
+      <div class="col-md-6 mt-1">
+        <div class="form " maxlength="2">       
+          <input type="number" class="form-control " id="floatingInputGrid"  placeholder="Cantidad"  max="10" min="1">
+        </div>
+      </div>
+      <div class="col-md-6 mb-5 mt-1">    
+        <div class="form">
+          
+          <select class="form-select text-muted" id="floatingSelectGrid" aria-label="Floating label select example">
+            <option selected>Opción</option>
+            <option value="1">Estudiante</option>
+            <option value="2">Trainee</option>
+            <option value="3">Junior</option>
+          </select>
+        
+        </div>
+      </div>
+    </div>
+    
+  </div class="container d-flex ">
+    <div class="alert alert-primary col-md-6 " role="alert">
+       Total a pagar: $ 
+    </div>
+  <div class="d-grid gap-2 col-6">
+      <button class="btn " type="button" style="background-color:rgb(171, 214, 96)">Borrar</button>
+      <button class="btn " type="button"style="background-color: rgb(171, 214, 96)">Resumen</button>
+  </div>
+</div>  
   <!--footer menu-->
   <div class="footerMenu">
-    <div class="container d-flex">
+    <div class="container d-flex m">
       <ul class="nav">
         <li class="nav-item">
           <a class="nav-link " aria-current="page">Preguntas <p>Frecuentes</p></a>
