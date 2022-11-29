@@ -47,7 +47,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a id="idGreen" class="nav-link disabled justify-content-end">
+            <a id="idGreen" class="nav-link disabled justify-content-end" style="color:rgb(171, 214, 96)">
               Comprar tickets
             </a>
           </li>
@@ -89,40 +89,39 @@
             </div>
           </div>
       </div>   
-  </div>
-
-  <div class="venta">
-    <p>VENTA</p>
-    <br>
-    <br>
-    <h1><p>VALOR DE TICKET $200</p></h1>
-  </div>
+    </div>
+  
    <!-- formulario datos-->
   
   <div class="form d-flex flex-column">
       <div class="row col-6">
-        <div class="col mb-3">
+        <div class="container flex ">
+          <p>VENTA</p>
+          
+          <h1><p>VALOR DE TICKET $200</p></h1>
+        </div>
+        <div class="col mb-2 mt-2 ps-0">
           <input type="text" class="form-control" placeholder="Nombre" aria-label="First name">
         </div>
-        <div class="col">
+        <div class="col mt-2 pe-0">
           <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name">
         </div>
       </div>
-      <div class="mb-3">
+      <div class="mb-3 col-6">
         <label for="exampleFormControlInput1" class="form-label"></label>
         <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Correo">
       </div>
     <div>
       <p>Cantidad</p>
-      <div class="row g-2">
-        <div class="col-md">
-          <div class="form">
+      <div class="row col-8">
+        <div class="col mb-2 mt-2 ps-0">
+          <div class="form ">
             <input type="email" class="form-control text-muted" id="floatingInputGrid" placeholder="name@example.com"
               value="Cantidad">
           </div>
         </div>
         <p>Categoría</p>
-        <div class="col-md">
+        <div class="col mb-2 mt-2 ps-0">
           <div class="form">
             <select class="form-select text-muted" id="floatingSelectGrid" aria-label="Floating label select example">
               <option value="1">Estudiante</option>
@@ -134,17 +133,17 @@
       </div>
     </div>
       <div class="alert alert-primary" role="alert">
-         Total a pagar: $
+         Total a pagar: $ 
       </div>
-    <div class="d-grid gap-2 col-6 d-md-block">
+    <div class="d-grid gap-2 col-6">
         <button class="btn " type="button" style="background-color:rgb(171, 214, 96)">Borrar</button>
         <button class="btn " type="button"style="background-color: rgb(171, 214, 96)">Resumen</button>
     </div>
   </div>
   <!--footer menu-->
   <div class="footerMenu">
-    <div class="container">
-      <ul class="nav justify-content-center">
+    <div class="container d-flex">
+      <ul class="nav">
         <li class="nav-item">
           <a class="nav-link " aria-current="page">Preguntas <p>Frecuentes</p></a>
         </li>

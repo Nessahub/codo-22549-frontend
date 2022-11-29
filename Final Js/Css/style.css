@@ -50,25 +50,29 @@ ul {
 .card-group {
     justify-content: center;
 }
-div.venta {
-    display:flex;
-    justify-content:center;
-}
+
 .form {
     
     align-items: center;
 }
-
-div.footerMenu {
+ul {
+    text-align:center;
+    text-decoration: white;
+}
+.div.container.d-flex  {
     background-color:-webkit-linear-gradient(left, rgb(31, 55, 68), rgb(30, 82, 112)) ;
-    justify-content: space-around;
+    justify-content:space-evenly;
+    padding: 0;
+    
 }
 .footerMenu li {
     padding-top: 0;
+    text-align: center;
+    
 }
 
 .footer li a {
-    color:white;
+    
     margin-top: 10px;
     margin-bottom: 10px;
     
