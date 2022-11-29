@@ -6,30 +6,30 @@ header {
 }
 .navbar {
     background-color: rgb(53, 58, 64);
-    text-align: right;
-    width:auto;
+    text-align:left;
     padding-left: 30px;
-    padding-right: 70px;
+    padding-right: 10px;
     color:white; 
 }
 .navbar span {
     color:white;
     font-style: normal;
-    margin-bottom: 25px;
+    margin-bottom: 5px;
 }
 a .navbar-brand {
-    justify-content:space-around; 
+    justify-content:left;
 }
 header .navbar p {
     color: white; 
 }
 .row {
-    text-align: center;
+    
+    text-align:center;
     margin-top: 15px;
 }
 .idMenu {
     justify-content: end;
-    font-size: 24px;
+    font-size: 20px;
     color:darkgrey;
     margin: 0;
     padding: 0; 
@@ -42,10 +42,17 @@ ul {
     display: flex;
     text-align:inherit;
     align-items: flex-end;
+    
+}
+.container{
+    justify-content: center;
 }
 .card-group {
-    display:inline-flex; 
-    
+    justify-content: center;
+}
+div.venta {
+    display:flex;
+    justify-content:center;
 }
 .form {
     

@@ -16,9 +16,9 @@
   <!--Barra menu header-->
   <header>
     <nav class="navbar flex">
-      <div class="container col col-3 col-xs-12 col-sm-5 col-md-4 col-lg-3 col-xl-2">
+      <div class="container  col-xs-12 col-sm-5 col-md-4 col-lg-3 col-xl-2">
         <a class="navbar-brand" >
-          <span class="d-inline-block align-text-top">
+          <span class="d-inline-block align-text-center">
             <h2 class="fw-normal">Conf Bs As</h2>
           </span>
         </a>
@@ -56,39 +56,50 @@
     </nav>
   </header>
   <!--Cards Descuentos-->
-  <div id="cards" class="container flex">
-    <div class="card-group flex justify-content-center">
+  <div id="cards" class="container flex ">
+    <div class="card-group">
       <div class="row g-0">
         <div class="card border-primary md-3" style="max-width: 18rem;">
           <div class="card-body text-black">
-            <h5 class="card-title">Primary card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-              content.</p>
+            <h5 class="card-title">Estudiante</h5>
+            <p class="card-text">Tiene un descuento</p>
+            <h6><p>80%</p></h6>
+            <p class="text-muted">*presentar documentación</p>
           </div>
         </div>
-        <div class="row g-0">
+      </div> 
+        <div class="row g-0 ms-2">
           <div class="card border-success md-3" style="max-width: 18rem;">
             <div class="card-body text-black">
-              <h5 class="card-title">Primary card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                content.</p>
+              <h5 class="card-title">Trainee</h5>
+              <p class="card-text">Tiene un descuento</p>
+              <h6><p>50%</p></h6>
+              <p class="text-muted">*presentar documentación</p>
             </div>
           </div>
-          <div class="row g-0">
-            <div class="card border-warning mb-3" style="max-width: 18rem;">
+        </div>
+          <div class="row g-0 ms-2">
+            <div class="card border-warning md-3 " style="max-width: 18rem;">
               <div class="card-body text-black">
-                <h5 class="card-title">Primary card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                  card's content.</p>
+                <h5 class="card-title">Junior</h5>
+                  <p class="card-text">Tiene un descuento</p>
+                  <h6><p>15%</p></h6>
+                  <p class="text-muted">*presentar documentación</p>         
               </div>
             </div>
           </div>
-        </div>
-      </div>
-    </div>
+      </div>   
+  </div>
+
+  <div class="venta">
+    <p>VENTA</p>
+    <br>
+    <br>
+    <h1><p>VALOR DE TICKET $200</p></h1>
+  </div>
    <!-- formulario datos-->
   
-    <div class="form d-flex flex-column">
+  <div class="form d-flex flex-column">
       <div class="row col-6">
         <div class="col mb-3">
           <input type="text" class="form-control" placeholder="Nombre" aria-label="First name">
@@ -101,19 +112,19 @@
         <label for="exampleFormControlInput1" class="form-label"></label>
         <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Correo">
       </div>
-      <div>
+    <div>
       <p>Cantidad</p>
       <div class="row g-2">
         <div class="col-md">
           <div class="form">
-            <input type="email" class="form-control" id="floatingInputGrid" placeholder="name@example.com"
-              value="cantidad">
+            <input type="email" class="form-control text-muted" id="floatingInputGrid" placeholder="name@example.com"
+              value="Cantidad">
           </div>
         </div>
         <p>Categoría</p>
         <div class="col-md">
           <div class="form">
-            <select class="form-select" id="floatingSelectGrid" aria-label="Floating label select example">
+            <select class="form-select text-muted" id="floatingSelectGrid" aria-label="Floating label select example">
               <option value="1">Estudiante</option>
               <option value="2">Trainee</option>
               <option value="3">Junior</option>
@@ -123,12 +134,11 @@
       </div>
     </div>
       <div class="alert alert-primary" role="alert">
-        Total a pagar: $
+         Total a pagar: $
       </div>
-      <div class="d-grid gap-2 col-6 d-md-block">
-        <button class="btn " type="button" style="background-color:rgb(171, 214, 96)">Button</button>
-        <button class="btn " type="button"style="background-color: rgb(171, 214, 96)">Button</button>
-      </div>
+    <div class="d-grid gap-2 col-6 d-md-block">
+        <button class="btn " type="button" style="background-color:rgb(171, 214, 96)">Borrar</button>
+        <button class="btn " type="button"style="background-color: rgb(171, 214, 96)">Resumen</button>
     </div>
   </div>
   <!--footer menu-->
