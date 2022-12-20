@@ -59,27 +59,24 @@ ul {
     text-align:center;
    
 }
-div.footerMenu .container {
-    display: flex;
-    background-color:-webkit-linear-gradient(left, rgb(31, 55, 68), rgb(30, 82, 112)) ;
-    justify-content:space-evenly;
-    padding: 0;
-    text-decoration: white;
-}
 
+.footerMenu {
+    background:-webkit-linear-gradient(left, rgb(31, 55, 68), rgb(30, 82, 112)) ;
+    
+}
 .footerMenu li {
     padding-top: 0;
-    text-align: center;
-    
 }
-
-.footer li a {
-    
+.footerMenu ul {
+    align-items: center;
+}
+.footerMenu .nav-item a {
+    color:white;
     margin-top: 10px;
     margin-bottom: 10px;
     
 }  
-/**/
+
 
 .title-form {
     color: #353A40;
@@ -103,7 +100,7 @@ div.footerMenu .container {
   p {
     position: relative;
     font-weight: 400;
-    color: #343a40;
+    color: #020202;
     font-size: .9em;
     margin-bottom: 10px;
   }
@@ -143,8 +140,8 @@ div.footerMenu .container {
     border-radius: 0.25rem;
     width: 540px;
     background: none;
-    margin: 0 10px 0 10px;
-    padding: 0 10px 0 10px;
+    margin: 0 5px 0 5px;
+    padding: 0 5px 0 5px;
   }
   
   textarea::placeholder {
@@ -161,6 +158,7 @@ div.footerMenu .container {
     padding-bottom: 1.3em;
     text-align: left;
   }
+  
   
   .btn-7 {
     padding: .15rem .5rem;
