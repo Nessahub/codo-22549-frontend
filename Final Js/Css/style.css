@@ -59,7 +59,7 @@ ul {
     text-align:center;
    
 }
-div.footerMenu {
+div.footerMenu .container {
     display: flex;
     background-color:-webkit-linear-gradient(left, rgb(31, 55, 68), rgb(30, 82, 112)) ;
     justify-content:space-evenly;
@@ -79,3 +79,107 @@ div.footerMenu {
     margin-bottom: 10px;
     
 }  
+/**/
+
+.title-form {
+    color: #353A40;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  
+  form.custom-form {
+    text-align: center;
+    display: inline-block;
+    width: 580px;
+  }
+  
+  .form-content {
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+  
+  p {
+    position: relative;
+    font-weight: 400;
+    color: #343a40;
+    font-size: .9em;
+    margin-bottom: 10px;
+  }
+  
+  .form-data, .form-select {
+    padding-bottom: 1em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  
+  .form-data-mail {
+    padding-bottom: 1em;
+    display: grid;
+  }
+  
+  input, select {
+    border: 1px solid #E0E0E0;
+    border-radius: 0.25rem;
+    background: none;
+    height: 25px;
+    margin: 0 10px 0 10px;
+    padding: 0 10px 0 10px;
+  }
+  
+  select {
+    padding: 0 !important;
+  }
+  
+  
+  input::placeholder {
+    color: #899285;
+  }
+  
+  textarea {
+    border: 1px solid #E0E0E0;
+    border-radius: 0.25rem;
+    width: 540px;
+    background: none;
+    margin: 0 10px 0 10px;
+    padding: 0 10px 0 10px;
+  }
+  
+  textarea::placeholder {
+    color: #899285;
+    font-size: 1.3em;
+    padding-top: 10px;
+  }
+  
+  h5 {
+    margin: 0 10px;
+    font-weight: 400;
+    font-size: 1em;
+    color: #054559;
+    padding-bottom: 1.3em;
+    text-align: left;
+  }
+  
+  .btn-7 {
+    padding: .15rem .5rem;
+    border: 2px solid #a0c934;
+    border-radius: .25rem;
+    background-color: #a0c934;
+    color: #FFF;
+    width: 560px;
+    height: 40px;
+  }
+  
+  .btn-B, .btn-R {
+    padding: .15rem .5rem;
+    border: 2px solid #a0c934;
+    background-color: #a0c934 !important;
+    color: #FFF;
+    border-radius: 0.25rem;
+    background: none;
+    height: 25px;
+    margin: 0 10px 0 10px;
+    padding: 0 10px 0 10px;
+  }
